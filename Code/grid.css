@@ -1,0 +1,90 @@
+
+
+.tittle{
+  margin-bottom: 10px;
+  display: grid;
+  place-items: center;
+  box-shadow: 3px 4px 10px rgba(89, 5, 91, 0.9);
+}
+
+h2{
+  top:10px;
+  color: #ffffff;
+  background-color: rgb(210, 104, 200);
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.grid-practice{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  height: 400px;
+  padding: 10px;
+}
+
+.car-bernz,
+.car-ford{
+  width: 90%;
+}
+
+
+.car{
+  width: 100%;
+}
+
+.grid{
+  display: grid;
+
+  transition: background-color 0.6s;
+}
+
+.grid:hover{
+  border-style: solid;
+  border-color: rgb(203, 190, 176);
+  background-color: rgba(153, 175, 155, 0.5);
+  border-radius: 25px;
+}
+
+.car-name-mecerdece{
+  margin-top: 0;
+}
+
+.car-name-ford{
+  margin-top: 6px;
+}
+
+.car-name-gt{
+  margin-top: 14px;
+}
+
+
+.buy-button{
+  display: grid;
+  place-items: center;
+}
+.buy{
+  padding: 8px 4px;
+  width: 50%;
+  margin-bottom: 20px;
+  vertical-align: bottom;
+  color: rgb(3, 24, 24);
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(167, 48, 180);
+  border-style: none;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.buy:hover{
+  color: #ffffff;
+  background-color: rgb(82, 211, 53);
+}
+
+p{
+  font-size: 18px;
+}
